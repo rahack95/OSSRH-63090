@@ -1,4 +1,7 @@
 com/nepali/number/to/word/service/NepaliNumberServiceImpl.class
 com/nepali/number/to/word/model/NepaliNumberToWord.class
+constant/NepaliNumberConstant.class
 com/nepali/number/to/word/constant/NepaliNumberConstant.class
+model/NepaliNumberToWord.class
+service/impl/NepaliNumberServiceImpl.class
 com/nepali/number/to/word/service/NepaliNumberService.class

@@ -102,7 +102,7 @@ public class NepaliNumberServiceImpl implements NepaliNumberService {
     if (isFractionPresent)
       return nepaliNumberToWord.getNumberInNepaliWords().concat(NepaliNumberConstant.ONE_WHITESPACE_STRING).concat(NepaliNumberConstant.RUPEES).concat(NepaliNumberConstant.ONE_WHITESPACE_STRING).concat(fractionPartString).concat(NepaliNumberConstant.ONE_WHITESPACE_STRING).concat(NepaliNumberConstant.PAISA);
     else
-      return nepaliNumberToWord.getNumberInNepaliWords().concat(NepaliNumberConstant.RUPEES);
+      return nepaliNumberToWord.getNumberInNepaliWords().concat(NepaliNumberConstant.ONE_WHITESPACE_STRING).concat(NepaliNumberConstant.RUPEES);
   }
 
   /**
